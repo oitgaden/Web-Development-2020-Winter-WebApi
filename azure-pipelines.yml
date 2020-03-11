@@ -21,4 +21,4 @@ steps:
     command: 'buildAndPush'
     Dockerfile: 'webapi/Dockerfile'
     buildContext: 'webapi'
-    tags: $(Date:yyyyMMdd).$(Build.BuildId)
+    tags: $(Build.BuildId)
