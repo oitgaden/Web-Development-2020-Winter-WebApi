@@ -13,7 +13,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'Docker Hub - oit-gaden'
-    repository: 'webapi'
+    repository: 'oitgaden/webapi'
     command: 'buildAndPush'
     Dockerfile: 'webapi/Dockerfile'
     buildContext: 'webapi'
