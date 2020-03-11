@@ -15,5 +15,5 @@ steps:
     containerRegistry: 'Docker Hub - oit-gaden'
     repository: 'webapi'
     command: 'buildAndPush'
-    Dockerfile: '**/webapi/Dockerfile'
-    buildContext: '**/webapi'
+    Dockerfile: 'webapi/Dockerfile'
+    buildContext: 'webapi'
