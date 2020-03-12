@@ -8,5 +8,5 @@ public static class BusinessRules
 
     public static int lowInventoryCount = 3;
 
-    public static string onSaleKey = "b";
+    public static string onSaleKey = "c";
 }
